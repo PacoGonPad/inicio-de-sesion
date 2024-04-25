@@ -1,0 +1,26 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body {
+    background-image: linear-gradient(to right, #4facfe 0%, #00f2fe 100%);
+}
+.form_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.form {
+    width: 450px;
+    height: 450px;
+    background-color: white;
+    border-radius: 8px;
+    padding: 40px;
+}
+
+.form_input {
+    margin-bottom: 30px;
+}
